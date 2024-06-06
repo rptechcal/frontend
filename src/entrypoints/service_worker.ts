@@ -36,8 +36,7 @@ const initRouting = () => {
   // Use revalidation so cache is always available during an extended outage
   registerRoute(
     ({ url, request }) =>
-      url.origin === "https://brands.home-assistant.io" &&
-      request.destination === "image",
+      url.origin === "https://rpcontrol.io" && request.destination === "image",
     new StaleWhileRevalidate({
       cacheName: "brands",
       // CORS must be forced to work for CSS images

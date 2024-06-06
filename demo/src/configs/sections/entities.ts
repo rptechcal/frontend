@@ -429,8 +429,7 @@ export const demoEntitiesSections: DemoConfig["entities"] = () =>
           "https://github.com/home-assistant/operating-system/commits/dev",
         skipped_version: null,
         title: "Home Assistant Operating System",
-        entity_picture:
-          "https://brands.home-assistant.io/homeassistant/icon.png",
+        entity_picture: "https://rpcontrol.io/homeassistant/icon.png",
         friendly_name: "Home Assistant Operating System Update",
         supported_features: 3,
       },
@@ -448,7 +447,7 @@ export const demoEntitiesSections: DemoConfig["entities"] = () =>
           "https://github.com/home-assistant/supervisor/commits/main",
         skipped_version: null,
         title: "Home Assistant Supervisor",
-        entity_picture: "https://brands.home-assistant.io/hassio/icon.png",
+        entity_picture: "https://rpcontrol.io/hassio/icon.png",
         friendly_name: "Home Assistant Supervisor Update",
         supported_features: 1,
       },
@@ -465,8 +464,7 @@ export const demoEntitiesSections: DemoConfig["entities"] = () =>
         release_url: "https://github.com/home-assistant/core/commits/dev",
         skipped_version: null,
         title: "Home Assistant Core",
-        entity_picture:
-          "https://brands.home-assistant.io/homeassistant/icon.png",
+        entity_picture: "https://rpcontrol.io/homeassistant/icon.png",
         friendly_name: "Home Assistant Core Update",
         supported_features: 11,
       },

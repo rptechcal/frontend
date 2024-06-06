@@ -6,28 +6,28 @@ describe("Generate brands Url", () => {
     assert.strictEqual(
       // @ts-ignore
       brandsUrl({ domain: "cloud", type: "logo" }),
-      "https://brands.home-assistant.io/cloud/logo.png"
+      "https://rpcontrol.io/cloud/logo.png"
     );
   });
   it("Generate icon brands url for cloud component without fallback", () => {
     assert.strictEqual(
       // @ts-ignore
       brandsUrl({ domain: "cloud", type: "icon" }),
-      "https://brands.home-assistant.io/cloud/icon.png"
+      "https://rpcontrol.io/cloud/icon.png"
     );
   });
   it("Generate logo brands url for cloud component with fallback", () => {
     assert.strictEqual(
       // @ts-ignore
       brandsUrl({ domain: "cloud", type: "logo", useFallback: true }),
-      "https://brands.home-assistant.io/_/cloud/logo.png"
+      "https://rpcontrol.io/_/cloud/logo.png"
     );
   });
   it("Generate icon brands url for cloud component with fallback", () => {
     assert.strictEqual(
       // @ts-ignore
       brandsUrl({ domain: "cloud", type: "icon", useFallback: true }),
-      "https://brands.home-assistant.io/_/cloud/icon.png"
+      "https://rpcontrol.io/_/cloud/icon.png"
     );
   });
 
@@ -35,7 +35,7 @@ describe("Generate brands Url", () => {
     assert.strictEqual(
       // @ts-ignore
       brandsUrl({ domain: "cloud", type: "logo", darkOptimized: true }),
-      "https://brands.home-assistant.io/cloud/dark_logo.png"
+      "https://rpcontrol.io/cloud/dark_logo.png"
     );
   });
 });
