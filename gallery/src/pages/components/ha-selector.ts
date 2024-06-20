@@ -499,7 +499,7 @@ class DemoHaSelector extends LitElement implements ProvideHassElement {
           can_play: true,
           can_expand: false,
           children_media_class: null,
-          thumbnail: "https://brands.home-assistant.io/_/image/logo.png",
+          thumbnail: "https://rpcontrol.io/_/image/logo.png",
         },
         {
           title: "movie.mp4",

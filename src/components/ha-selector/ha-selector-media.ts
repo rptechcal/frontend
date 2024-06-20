@@ -55,10 +55,7 @@ export class HaMediaSelector extends LitElement {
         getSignedPath(this.hass, thumbnail).then((signedPath) => {
           this._thumbnailUrl = signedPath.path;
         });
-      } else if (
-        thumbnail &&
-        thumbnail.startsWith("https://brands.home-assistant.io")
-      ) {
+      } else if (thumbnail && thumbnail.startsWith("https://rpcontrol.io")) {
         // The backend is not aware of the theme used by the users,
         // so we rewrite the URL to show a proper icon
         this._thumbnailUrl = brandsUrl({

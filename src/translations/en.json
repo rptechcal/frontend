@@ -5209,7 +5209,7 @@
             "no_service": "No service to run specified"
           },
           "empty_state": {
-            "title": "Welcome Home",
+            "title": "RP Control",
             "no_devices": "This page allows you to control your devices, however it looks like you have no devices set up yet. Head to the integrations page to get started.",
             "go_to_integrations_page": "Go to the integrations page."
           },
@@ -6351,7 +6351,7 @@
         "abort_intro": "Login aborted",
         "store_token": "Keep me logged in",
         "help": "Help",
-        "welcome_home": "Welcome home!",
+        "welcome_home": "RP Control",
         "just_checking": "Just checking",
         "who_is_logging_in": "Who is logging in?",
         "other_options": "Other login options",
@@ -6748,7 +6748,7 @@
         }
       },
       "page-onboarding": {
-        "intro": "Are you ready to awaken your home, reclaim your privacy and join a worldwide community of tinkerers?",
+        "intro": "Are you ready to party?",
         "back": "Back",
         "next": "Next",
         "finish": "Finish",
